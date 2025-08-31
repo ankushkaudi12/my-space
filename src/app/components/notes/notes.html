@@ -1,0 +1,79 @@
+<div class="container-fluid min-vh-100 d-flex flex-column bg-dark text-light py-5">
+    <!-- Header -->
+    <header class="text-center mb-5">
+        <h1 class="fw-bold display-4">
+            <span class="text-gradient">Notes</span>
+        </h1>
+    </header>
+
+    <!-- Back Button -->
+    <div class="text-center mb-4">
+        <button class="btn btn-outline-info fw-bold" (click)="goHome()">
+            <i class="bi bi-house-door-fill me-2"></i> Back to Home
+        </button>
+    </div>
+
+    <!-- Main -->
+    <main class="flex-grow-1">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <!-- Input Card -->
+                <div class="card bg-dark border border-secondary shadow-sm mb-5">
+                    <div class="card-body">
+                        <label for="noteText" class="form-label fw-bold text-gradient">
+                            {{ editingIndex !== null ? 'Edit Note' : 'Write a Note' }}
+                        </label>
+                        <textarea [(ngModel)]="textInput" id="noteText"
+                            class="form-control bg-dark text-light border border-secondary" rows="3"
+                            placeholder="Write something..."></textarea>
+                        <div class="mt-3 d-flex gap-2">
+                            <button class="btn btn-info text-white fw-bold" (click)="submitNote()">
+                                {{ editingIndex !== null ? 'Update Note' : 'Save Note' }}
+                            </button>
+                            <button *ngIf="editingIndex !== null" class="btn btn-secondary fw-bold"
+                                (click)="editingIndex = null; textInput = ''">
+                                Cancel
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Saved Notes -->
+                <div class="row g-4">
+                    <div *ngFor="let note of notes; let i = index" class="col-12">
+                        <div class="card bg-dark border border-secondary shadow-sm">
+                            <div
+                                class="card-body d-flex flex-column flex-md-row justify-content-between align-items-start">
+                                <div class="flex-grow-1 me-3">
+                                    <!-- Date Header -->
+                                    <h5 class="card-title text-gradient border-bottom pb-2 mb-3">
+                                        {{ note.key }}
+                                    </h5>
+
+                                    <!-- Note Content -->
+                                    <div class="d-flex align-items-start">
+                                        <i class="bi bi-arrow-right-circle-fill text-info me-2 mt-1"></i>
+                                        <div class="note-text flex-grow-1">
+                                            {{ note.value }}
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Actions -->
+                                <div class="d-flex flex-shrink-0 gap-2 mt-3 mt-md-0">
+                                    <button class="btn btn-outline-info btn-sm" (click)="editNote(i)">
+                                        <i class="bi bi-pencil-square"></i> Edit
+                                    </button>
+                                    <button class="btn btn-outline-danger btn-sm" (click)="deleteNote(i)">
+                                        <i class="bi bi-trash"></i> Delete
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>

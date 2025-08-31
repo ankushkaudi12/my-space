@@ -1,0 +1,21 @@
+{
+    "Monday to Friday": [
+        "00:00 - 05:30 -> Sleep",
+        "05:30 - 06:00 -> Wake up, freshen up, make bed",
+        "06:00 - 07:00 -> Walk / Jog",
+        "07:00 - 07:35 -> Breakfast and prep for work",
+        "07:35 - 09:30 -> Reach office / Work prep",
+        "09:30 - 17:00 -> Work",
+        "17:00 - 20:00 -> Commute back home",
+        "20:00 - 21:00 -> Dinner",
+        "21:00 - 22:00 -> BGMI and CODM",
+        "22:00 - 23:30 -> Coursera",
+        "23:30 - 00:00 -> Wind down, prep for bed"
+    ],
+    "Saturday": [
+        
+    ],
+    "Sunday": [
+
+    ]
+}

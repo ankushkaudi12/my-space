@@ -1,0 +1,15 @@
+.note-text {
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    color: white;
+}
+
+/* (Keep your gradient text rule as before) */
+.text-gradient {
+    background: linear-gradient(90deg, #0dcaf0, #20c997);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
