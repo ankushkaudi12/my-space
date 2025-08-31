@@ -15,6 +15,8 @@
           "options": {
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
+            "outputPath": "dist/app/browser",
+            "baseHref": "/my-space/",
             "assets": [
               {
                 "glob": "**/*",
@@ -32,7 +34,7 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
+                  "maximumWarning": "1MB",
                   "maximumError": "1MB"
                 },
                 {
@@ -80,6 +82,9 @@
               "src/styles.css"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }

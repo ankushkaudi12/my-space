@@ -1,15 +1,18 @@
 {
     "General": [
-        "1. ",
-        "2. "
+        "1. Choose one of Saturday or Sunday when there is a holiday",
+        "2. Use Day.sh for tracking daily tasks"
     ],
     "Weekdays": [
-        "1. "
+        "1. Watch Hotstar content and other when going to the office",
+        "2. Watch Netflix when back from office",
+        "3. Start office day with Leetcode daily challenge",
+        "4. Nearly 30 min of spiritual time in office"
     ],
     "Saturday": [
-        "1. "
+        "1. Attempt Leetcode biweekly contest seriously"
     ],
     "Sunday": [
-        "1. "
+        "1. Attempt Leetcode weekly contest seriously"
     ]
 }
