@@ -10,9 +10,11 @@
         "4. Nearly 30 min of spiritual time in office"
     ],
     "Saturday": [
-        "1. Attempt Leetcode biweekly contest seriously"
+        "1. Attempt Leetcode biweekly contest seriously",
+        "2. If office work is pending, dedicate the complete day to it"
     ],
     "Sunday": [
-        "1. Attempt Leetcode weekly contest seriously"
+        "1. Attempt Leetcode weekly contest seriously",
+        "2. If office work is pending, dedicate the complete day to it"
     ]
 }
