@@ -1,6 +1,6 @@
 {
     "Monday to Friday": [
-        "00:00 - 05:30 -> Sleep",
+        "23:00 - 05:30 -> Sleep",
         "05:30 - 06:00 -> Wake up, freshen up, make bed",
         "06:00 - 07:00 -> Walk / Jog",
         "07:00 - 07:35 -> Breakfast and prep for work",
@@ -8,46 +8,39 @@
         "09:30 - 17:00 -> Work",
         "17:00 - 20:00 -> Commute back home",
         "20:00 - 21:00 -> Dinner",
-        "21:00 - 22:00 -> BGMI and CODM",
-        "22:00 - 23:30 -> Coursera",
-        "23:30 - 00:00 -> Wind down, prep for bed"
+        "21:00 - 22:00 -> BGMI / CODM",
+        "22:00 - 23:00 -> Netflix / Hotstar"
     ],
     "Saturday": [
-        "00:00 - 05:30 -> Sleep",
+        "23:00 - 05:30 -> Sleep",
         "05:30 - 06:00 -> Wake up, freshen up, make bed",
         "06:00 - 07:00 -> Walk / Jog",
         "07:00 - 08:00 -> Bath and get ready",
         "08:00 - 09:00 -> BGMI and CODM",
-        "09:00 - 10:00 -> Me and my spiritual time",
+        "09:00 - 10:00 -> Take U Forward / DSA",
         "10:00 - 11:00 -> Breakfast and chill",
-        "11:00 - 13:00 -> Frontend Technology",
-        "13:00 - 14:00 -> Netflix",
+        "11:00 - 14:00 -> Frontend Tech",
         "14:00 - 15:00 -> Lunch",
-        "15:00 - 17:00 -> Backend Technology",
-        "17:00 - 18:00 -> Tea break and Hotstar",
-        "18:00 - 20:00 -> Learning AI",
-        "20:00 - 21:00 -> Leetcode Biweekly contest / Chill time",
+        "15:00 - 16:00 -> Netflix / Hotstar",
+        "16:00 - 19:00 -> Artificial Intelligence and Machine Learning",
+        "19:00 - 21:00 -> Take U Forward / DSA",
         "21:00 - 22:00 -> Dinner",
-        "22:00 - 23:30 -> Learning AI continue",
-        "23:30 - 00:00 -> Wind down, prep for bed"
+        "22:00 - 23:00 -> Spiritual Time"
     ],
     "Sunday": [
-        "00:00 - 05:30 -> Sleep",
+        "23:00 - 05:30 -> Sleep",
         "05:30 - 06:00 -> Wake up, freshen up, make bed",
         "06:00 - 07:00 -> Walk / Jog",
-        "07:00 - 08:00 -> Bath and prepare for contest",
-        "08:00 - 09:00 -> Leetcode Weekly contest",
-        "09:00 - 10:00 -> Me and my spiritual time",
+        "07:00 - 08:00 -> Bath and get ready",
+        "08:00 - 09:00 -> LeetCode Weekly Challenge",
+        "09:00 - 10:00 -> BGMI and CODM",
         "10:00 - 11:00 -> Breakfast and chill",
-        "11:00 - 13:00 -> Cybersecurity",
-        "13:00 - 14:00 -> Netflix",
+        "11:00 - 14:00 -> Backend Tech",
         "14:00 - 15:00 -> Lunch",
-        "15:00 - 17:00 -> Project work",
-        "17:00 - 18:00 -> Tea break and Hotstar",
-        "18:00 - 20:00 -> DSA practice",
-        "20:00 - 21:00 -> Dinner",
-        "21:00 - 22:00 -> BGMI and CODM",
-        "22:00 - 23:30 -> DSA practice continue",
-        "23:30 - 00:00 -> Wind down, prep for bed"
+        "15:00 - 16:00 -> Netflix / Hotstar",
+        "16:00 - 19:00 -> Cyber Security",
+        "19:00 - 21:00 -> Project Work",
+        "21:00 - 22:00 -> Dinner",
+        "22:00 - 23:00 -> Spiritual Time"
     ]
 }
