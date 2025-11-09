@@ -1,0 +1,27 @@
+{
+    "General": [
+        "Choose one of Saturday or Sunday when there is a holiday.",
+        "Halt gaming till next notice.",
+        "Maintain diary on One Note.",
+        "Keep mind fresh and clean",
+        "No wastage of time on unproductive tasks",
+        "Strict diet plan. Consumption of outside food should be rare",
+        "Focus on physical and mental health"
+    ],
+    "Weekdays": [
+        "Watch Hotstar content and other when going to the office.",
+        "Watch Netflix when back from office.",
+        "Start office day with Leetcode daily challenge.",
+        "Nearly 30 min of spiritual time in office.",
+        "Follow office timings from 9 to 5 strictly."
+    ],
+    "Saturday": [
+        "Replace LeetCode Biweekly Contest (1 hr) with Take U Forward / DSA.",
+        "If office work is pending, dedicate the complete day to it."
+    ],
+    "Sunday": [
+        "Attempt Leetcode weekly contest seriously.",
+        "If office work is pending, dedicate the complete day to it.",
+        "Drop one section of the day if D-Mart comes up."
+    ]
+}
