@@ -1,8 +1,0 @@
-{
-    "Rules": [
-        "1. Weekdays (Monday - Friday): 4 hours",
-        "2. Weekdays (Saturday & Sunday): 10 hours",
-        "3. Saturday 20:00 - 21:00: LeetCode Biweekly Contest",
-        "4. Sunday 08:00 - 09:00: LeetCode Weekly Contest"
-    ]
-}
